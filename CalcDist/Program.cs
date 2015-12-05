@@ -54,15 +54,6 @@ namespace CalcDist
                     //Console.WriteLine(" TESTLINE 1");   //testline             
                 }
 
-            //}
-            //catch (Exception ex)
-            //{
-            //    Console.WriteLine(ex.Message);
-            //}
-    
-
-            //try
-            //{
                 menuChoice = int.Parse(Console.ReadLine());
                 //Console.WriteLine(" TESTLINE 2");  //testline
 
@@ -110,12 +101,11 @@ namespace CalcDist
 
                 } while (menuChoice != 4);
 
-            }
+            }// end of try
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
-
             finally
             {
                 //and we are done

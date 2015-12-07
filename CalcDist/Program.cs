@@ -95,7 +95,9 @@ namespace CalcDist
                         Console.WriteLine("Invalid option");
 
                     }
-                    Menu();
+
+                    //another choice or exit
+                    Console.Write("Convert again or 4 to exit : ");
                     menuChoice = int.Parse(Console.ReadLine());
                     //Console.WriteLine(" TESTLINE 3 and metres: "+ metres); //testline
 
